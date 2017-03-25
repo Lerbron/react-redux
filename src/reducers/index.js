@@ -1,0 +1,1 @@
+/** * Created by admin on 2017/3/3. */import { combineReducers } from 'redux';import login from './login.js';import tabBarSelect from './tabBar';//import tabBar from './tabBar.js';export default combineReducers({  login,	tabBarSelect    //tabBar})

@@ -1,0 +1,1 @@
+/** * Created by admin on 2017/3/3. *//** * Created by admin on 2017/3/3. */import React, { Component } from 'react'export default class Main extends Component{    render(){        return(            <div>                {this.props.children}            </div>        )    }}

@@ -1,0 +1,1 @@
+/** * Created by admin on 2017/3/25. */function initSelected(){	return{		type:'initSelected',	}}function selected(selected){	return {		type:'selectedItem',		selected,	}}export function selectedItem(selItem) {	return dispatch => {		dispatch(initSelected());		dispatch(selected(selItem));	}}
