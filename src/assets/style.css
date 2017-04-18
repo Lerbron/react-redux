@@ -1,1 +1,1 @@
-*{  margin:0;  padding:0;}body{  font-size: .24rem;  color: #333;}.homeContainer{  overflow: hidden;}.HomeList{  margin:.44rem 0;}
+* {  margin: 0;  padding: 0;}body {  font-size: .24rem;  color: #333;}.homeContainer {  overflow: hidden;  position: relative;}.HomeList {  margin-top: .44rem;  margin-bottom: .44rem;}.HomeListLoading {  margin-bottom: 1.04rem;}.homeLoading {  position: absolute;  left: 0;  right: 0;  bottom: .44rem;  text-align: center;}.loadingImg {  width: .6rem;}
