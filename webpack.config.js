@@ -23,6 +23,15 @@ module.exports = {
     publicPath: "dist/",
 	  chunkFilename: '[name].chunk.js'  // 添加按需加载的文件名
   },
+	devServer: {
+		// contentBase: "./src",//默认webpack dev server是从项目的根目录提供服务，如果要从不同的目录提供服务，可以通过contentBase来配置,如：contentBase: "./src"，从src目录下提供服务
+		port: 3001,
+		historyApiFallback: true,
+		inline: true, //实时刷新
+		// stats: 'minimal',
+		// publicPath: '/h5/',
+		// headers: { "X-Custom-Header": "yes" }
+	},
   module: {
     loaders: [{
         test: /\.(jpg|png|gif)$/,
